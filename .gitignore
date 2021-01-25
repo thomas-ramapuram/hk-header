@@ -1,0 +1,17 @@
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependency directories
+node_modules/
+
+#Idea configuration files
+.idea
+
+#Node Configuration File
+package-lock.json
+package.json
+
+#stylelintrc file
+.stylelintrc.json

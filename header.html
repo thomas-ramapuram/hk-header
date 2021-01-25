@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haina Kalahari Lodge</title>
+    <style>
+      /* Style the header with a grey background and some padding */
+      .header {
+        height: 100px;
+        background-color: #94904d;
+        padding: 20px 10px;
+        color: #fefcdc;
+      }
+
+      /* Style the header links */
+      .header a {
+        float: left;
+        font-family: "Gill Sans", Arial, sans-serif;
+        color: #fefcdc;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+      }
+
+      /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+      .header a.logo {
+        width: 160px;
+        height: 80px;
+        background-position: center;
+        background-image: url("img/HK-logo.png");
+        background-repeat: no-repeat;
+        background-size: 149px 105px;
+        color: transparent;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      /* Change the background color on mouse-over */
+      .header a:hover {
+        background-color: #84803d;
+      }
+
+      .header .home {
+        vertical-align: middle;
+        background-image: url('img/home.png');
+        background-size: 40px 40px;
+        background-position: top;
+        background-repeat: no-repeat;
+        padding-top: 45px;
+        padding-bottom: 0;
+      }
+
+      /* Float the link section to the right */
+      .header-right {
+        float: right;
+        height: 100px;
+      }
+
+      .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+
+      @media only screen
+        and (min-device-width: 320px)
+        and (max-device-width: 480px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+        .header {
+          height: 200px;
+          padding: 10px 10px;
+          color: #fefcdc;
+        }
+
+        .header a.logo {
+          width: 320px;
+          height: 160px;
+          background-size: 298px 210px;
+          color: transparent;
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+        .header .home {
+          font-size: x-large;
+          background-size: 80px 80px;
+          vertical-align: middle;
+          padding-top: 90px;
+          margin-right: 40px;
+        }
+
+        .vertical-center {
+          top: 100%;
+        }
+      }
+    </style>
+</head>
+<body>
+<div class="header">
+    <a class="logo" href="https://www.evolveback.com/">Haina Kalahari Lodge</a>
+    <div class="header-right">
+        <a class="active home vertical-center"
+           href="https://www.evolveback.com/coorg/">Home</a>
+    </div>
+</div>
+</body>
+</html>
